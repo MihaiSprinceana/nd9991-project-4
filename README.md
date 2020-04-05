@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![BuildStatus](https://circleci.com/gh/MihaiSprinceana/nd9991-project-4.svg?style=svg&circle-token=72ca8601b6f0bc05f6320705d5533e25a37ddebe)](https://app.circleci.com/pipelines/github/MihaiSprinceana/nd9991-project-4)
 
 ## Project Overview
 
