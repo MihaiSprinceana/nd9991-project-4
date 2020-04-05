@@ -1,6 +1,21 @@
+Log from prediction rest call:
 Port: 8000
 {
   "prediction": [
     20.35373177134412
   ]
 }
+
+
+Log from console:
+
+[2020-04-05 09:06:51,224] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-04-05 09:06:51,227] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-05 09:06:51,239] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-05 09:06:51,252] INFO in app: Predictions for the given input [{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}] : [20.35373177134412] 
+172.17.0.1 - - [05/Apr/2020 09:06:51] "POST /predict HTTP/1.1" 200 -
